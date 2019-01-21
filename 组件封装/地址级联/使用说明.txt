@@ -1,15 +1,16 @@
+æ˜¯åŸºäºŽelementçš„select
 <addressSelect
                 @currentSelected="selected"
                 :resetData="resetData"
               ></addressSelect>
 
-//val£¬Êä³öµÄÊÇÑ¡ÖÐµÄÖµ
+//valï¼Œè¾“å‡ºçš„æ˜¯é€‰ä¸­çš„å€¼
  selected(val) {
       console.log(val);
     },
 
 
-³õÊ¼»¯   
+åˆå§‹åŒ–   
 this.resetData = true;
     setTimeout(() => {
          this.resetData = false;
